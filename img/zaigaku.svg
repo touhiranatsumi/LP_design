@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="129" viewBox="0 0 1200 129">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fabb2e"/>
+      <stop offset="1" stop-color="#ff8824"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_31" data-name="グループ 31" transform="translate(0 -712)">
+    <rect id="長方形_49" data-name="長方形 49" width="1200" height="100" transform="translate(0 712)" fill="url(#linear-gradient)"/>
+    <text id="在学中に企業とのつながりも_" data-name="在学中に企業とのつながりも！" transform="translate(393 773)" fill="#fff" font-size="32" font-family="'\.HiraKakuInterface-W5', '\.AppleJapaneseFont'"><tspan x="0" y="0">在学中に企業とのつながりも！</tspan></text>
+    <path id="多角形_1" data-name="多角形 1" d="M48.5,0,97,30H0Z" transform="translate(649 841) rotate(180)" fill="#faba2d"/>
+  </g>
+</svg>

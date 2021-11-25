@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="130" viewBox="0 0 1200 130">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fabb2e"/>
+      <stop offset="1" stop-color="#ff8824"/>
+    </linearGradient>
+  </defs>
+  <g id="オレンジ枠" transform="translate(-3024 -945)">
+    <g id="グループ_34" data-name="グループ 34" transform="translate(3024 233)">
+      <path id="パス_16" data-name="パス 16" d="M0,0H1200V100H0Z" transform="translate(0 712)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="多角形_1" data-name="多角形 1" d="M48.5,0,97,30H0Z" transform="translate(3673 1075) rotate(180)" fill="#faba2d"/>
+  </g>
+</svg>

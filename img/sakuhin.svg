@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="129" viewBox="0 0 1200 129">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fabb2e"/>
+      <stop offset="1" stop-color="#ff8824"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_30" data-name="グループ 30" transform="translate(0 -3437)">
+    <rect id="長方形_49" data-name="長方形 49" width="1200" height="100" transform="translate(0 3437)" fill="url(#linear-gradient)"/>
+    <path id="多角形_1" data-name="多角形 1" d="M48.5,0,97,30H0Z" transform="translate(649 3566) rotate(180)" fill="#faba2d"/>
+    <text id="卒業制作作品" transform="translate(512 3498)" fill="#fff" font-size="32" font-family="'\.HiraKakuInterface-W6', '\.AppleJapaneseFont'"><tspan x="0" y="0">卒業制作作品</tspan></text>
+  </g>
+</svg>

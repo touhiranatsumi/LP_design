@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe2a2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="即戦力" transform="translate(-150 -2310)">
+    <g id="パス_15" data-name="パス 15" transform="translate(200 2360)" fill="url(#linear-gradient)">
+      <path d="M 798.5 198.5 L 1.5 198.5 L 1.5 1.5 L 798.5 1.5 L 798.5 198.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 197 L 797 197 L 797 3 L 3 3 M 0 0 L 800 0 L 800 200 L 0 200 L 0 0 Z" stroke="none" fill="#fcd483"/>
+    </g>
+    <g id="長方形_60" data-name="長方形 60" transform="translate(950 2510)" fill="none" stroke="#fcd483" stroke-width="3">
+      <rect width="100" height="100" stroke="none"/>
+      <rect x="1.5" y="1.5" width="97" height="97" fill="none"/>
+    </g>
+    <g id="長方形_59" data-name="長方形 59" transform="translate(150 2310)" fill="none" stroke="#fcd483" stroke-width="3">
+      <rect width="100" height="100" stroke="none"/>
+      <rect x="1.5" y="1.5" width="97" height="97" fill="none"/>
+    </g>
+    <text id="_1年でデザインの基礎から_WEBサイトのコーディングまで_WEBサイトの全工程を1人で出来て即戦力へ_" data-name="1年でデザインの基礎から、WEBサイトのコーディングまで！
+WEBサイトの全工程を1人で出来て即戦力へ。" transform="translate(600 2444)" fill="#707070" font-size="26" font-family="HiraginoSans-W5, Hiragino Sans"><tspan x="-364" y="0">1年でデザインの基礎から、WEBサイトのコーディングまで！</tspan><tspan x="-286" y="51">WEBサイトの全工程を1人で出来て</tspan><tspan y="51" fill="#fe8824" font-size="34">即戦力</tspan><tspan y="51">へ。</tspan></text>
+  </g>
+</svg>

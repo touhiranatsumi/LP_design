@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* /* common */
+---------------------
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+head{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meirio;
+}
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meirio;
+}
+
+.btn{
+    display: block;
+    width: 400px;
+    height: 80px;
+    background-color: #FC9E28;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px gray;
+    position: relative;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.btn-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+/* -----------header----------- */
+
+
+.logo{
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    position: relative;
+}
+header h1{
+    width: 171px;
+    height: 49px;
+    display: flex;
+    top: 25px;
+    left: 72px;
+}
+.FV{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/main.jpeg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.copy{
+    color: #707070;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 94px;
+}
+.btn01{
+    width: 400px;
+    height: 80px;
+    background-color: #FC9E28;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px gray;
+    color: #ffffff;
+    font-size: 30px;
+    right: 60px;
+    bottom: 64px;
+}
+
+.btn-inner01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+
+}
+
+/* ---------main---------- */
+
+/* -----------div01--------- */
+
+/* -----------div02--------- */
+.curriculum_copy{
+    color: #707070;
+    font-size: 21px;
+    text-align: center;
+}
+.step{
+    color: #FE8924;
+    font-size: 24px;
+    text-align: center;
+}
+.skill{
+    color: #707070;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* -----------div03--------- */
+
+/* -----------div04--------- */
+
+/* -----------div05--------- */
