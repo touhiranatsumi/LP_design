@@ -23,6 +23,7 @@ body{
     margin: 0 auto;
     color: #ffffff;
     font-size: 30px;
+    margin-bottom: 96px;
 }
 
 .btn-inner{
@@ -35,25 +36,22 @@ body{
 /* -----------header----------- */
 
 
-.logo{
-    width: 100px;
-    height: 50px;
-    background-color: #ffffff;
-    position: relative;
-}
-header h1{
-    width: 171px;
-    height: 49px;
-    display: flex;
-    top: 25px;
-    left: 72px;
-}
+
+
 .FV{
     width: 100vw;
     height: 100vh;
     background: url(../img/main.jpeg) no-repeat center center;
     background-size: cover;
     position: relative;
+}
+header h1{
+    width: 171px;
+    height: 49px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 60px;
 }
 .copy{
     color: #707070;
@@ -87,17 +85,53 @@ header h1{
 /* ---------main---------- */
 
 /* -----------div01--------- */
+.osusume{
+    width: 1080px;
+    height: 240px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff; /* 背景色 */
+    border: 3px solid #FE8824; /* 枠線 */
+}
 
+.osusume .osusume_sankaku .su{
+    color: #fff;
+}
+.osusume .osusume_inner{
+    padding: 0 0 0 125px;
+}
+.ttl01{
+    font-size: 32px;
+}
+.text01{
+    font-size: 22px;
+    color: #707071;
+}
 /* -----------div02--------- */
 .curriculum_copy{
     color: #707070;
     font-size: 21px;
     text-align: center;
 }
+.curriculum_box{
+    width: 19.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
 .step{
     color: #FE8924;
-    font-size: 24px;
+    font-size: 28px;
+}
+.shitayagirushi{
     text-align: center;
+}
+.soku{
+    text-align: center;
+}
+.skill_icon{
+    text-align: center;
+    margin-bottom: 74px;
 }
 .skill{
     color: #707070;
@@ -106,7 +140,74 @@ header h1{
     padding-bottom: 50px;
 }
 /* -----------div03--------- */
-
+.voice_block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.voice_box{
+    width: 340px;
+    height: 420px;
+}
+.voice{
+    font-size: 24px;
+    color: #FE8924;
+    text-align: center;
+}
+.voice_text{
+    font-size: 22px;
+    color: #707070;
+}
 /* -----------div04--------- */
+.sakuhin_block{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sakuhin_box{
+    width: 300px;
+    height: 250px;
+}
+.sakuhin_ttl{
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.sakuhin_green{
+    font-size: 28px;
+    color: #39AD39;
+    text-align: center;
+}
+.yagirusi_green{
+    text-align: center;
+}
 
 /* -----------div05--------- */
+.zaigaku_textbox{
+    width: 670px;
+    height: 340px;
+
+}
+.zaigaku_copy{
+    font-size: 22px;
+    color: #FE8824;
+}
+.zaigaku_ttl{
+    font-size: 30px;
+}
+.zaigaku_text{
+    font-size: 20px;
+    color: #707070;
+}
+/* ----------footer--------- */
+.footer{
+    background-color: #FC9E28;
+}
+.footer_text{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
