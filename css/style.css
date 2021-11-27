@@ -296,8 +296,10 @@ a {
 
 /* -----------div05--------- */
 .zaigaku_block{
-    width: 1080px;
+    max-width: 1080px;
+    width: 100%;
     display: flex;
+    margin: 0 auto;
 }
 .zaigaku_textbox{
     width: 670px;
