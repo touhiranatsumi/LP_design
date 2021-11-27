@@ -33,11 +33,18 @@ body{
     height: 75px;
 }
 
+.btn:hover{
+    color: #FC9E28;
+    background-color: #fff;
+    border-color: #FC9E28;
+    border-width: 5px;
+}
+
 .top_ttl{
     height: 100px;
     background: transparent linear-gradient(0deg, #FABB2E 0%, #FF8824 100%) 0% 0% no-repeat padding-box;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
     margin-bottom: 96px;
     position: relative;
@@ -59,7 +66,7 @@ body{
     height: 100px;
     background: transparent linear-gradient(0deg, #FABB2E 0%, #FF8824 100%) 0% 0% no-repeat padding-box;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
     margin-top: 96px;
     margin-bottom: 96px;
@@ -97,7 +104,7 @@ header h1{
     height: 49px;
     display: flex;
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 60px;
 }
 .copy{
@@ -131,6 +138,11 @@ header h1{
     height: 75px;
 
 }
+.btn01:hover{
+    color: #FC9E28;
+    background-color: #fff;
+    border-color: #FC9E28;
+}
 a {
     text-decoration:none;
 }
@@ -159,7 +171,7 @@ a {
     color: #fff;
     font-size: 50px;
     margin: 0;
-    padding: 15px 15px 10px 30px;;
+    padding: 20px 15px 10px 32px;;
 }
 .osusume .osusume_inner{
     padding: 0 0 0 50px;
@@ -167,13 +179,19 @@ a {
 
 .ttl01{
     font-size: 32px;
-    margin: 0;
+    margin: 40px 0 30px 0;
     margin-top: 20px;
 }
 .text01{
     font-size: 21px;
     color: #707071;
     line-height: 2;
+}
+.text02{
+    font-size: 21px;
+    color: #707071;
+    line-height: 2;
+    margin-top: 40px;
 }
 /* -----------div02--------- */
 .curriculum_copy{
@@ -195,6 +213,7 @@ a {
 .step{
     color: #FE8924;
     font-size: 28px;
+    margin-bottom: 20px;
 }
 .shitayagirushi{
     text-align: center;
@@ -230,11 +249,13 @@ a {
     font-size: 24px;
     color: #FE8924;
     text-align: center;
+    margin-bottom: 20px;
 }
 .voice_text{
     font-size: 22px;
     color: #707070;
     line-height: 2;
+    margin-top: 15px;
 }
 /* -----------div04--------- */
 .sakuhin_block{
@@ -260,11 +281,13 @@ a {
 }
 
 .sakuhin_green{
-    font-size: 28px;
-    color: #39AD39;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 0;
+}
+.sakuhin_green a{
+    font-size: 28px;
+    color: #39AD39;
 }
 .yagirusi_green{
     text-align: center;
@@ -284,7 +307,7 @@ a {
     padding: 8px;
 }
 .zaigaku_img{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 60px;
 }
 .zaigaku_copy{
@@ -302,13 +325,9 @@ a {
 .zaigaku_text{
     font-size: 20px;
     color: #707070;
+    line-height: 2;
 }
-.toppage{
-    position: relative;
-}
-.toppage .img{
-    position: absolute;
-}
+
 /* ----------footer--------- */
 
 footer{
@@ -320,12 +339,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 20px 50px;
 }
 
 .footer-wrap .h1{
     width: 170px;
     height: 50px;
+    margin: 20px;
 }
 
 .footer-wrap p{
