@@ -33,14 +33,61 @@ body{
     height: 75px;
 }
 
+.top_ttl{
+    height: 100px;
+    background: transparent linear-gradient(0deg, #FABB2E 0%, #FF8824 100%) 0% 0% no-repeat padding-box;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 96px;
+    position: relative;
+}
+.top_ttl:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #FABB2E transparent transparent transparent;
+    border-width: 30px 30px 0 30px;
+}
+.top_ttl_curriculum{
+    height: 100px;
+    background: transparent linear-gradient(0deg, #FABB2E 0%, #FF8824 100%) 0% 0% no-repeat padding-box;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    position: relative;
+}
+.top_ttl_curriculum::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #FABB2E transparent transparent transparent;
+    border-width: 30px 30px 0 30px;
+}
+.top_text{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0;
+}
+
 /* -----------header----------- */
 
-
-
-
 .FV{
-    width: 100vw;
-    height: 100vh;
+    height: 700px;
     background: url(../img/main.jpeg) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -60,6 +107,9 @@ header h1{
     position: absolute;
     top: 170px;
     left: 94px;
+    font-weight: bold;
+    line-height: 1.509;
+    text-shadow: 15px 10px 10px #00000030;
 }
 .btn01{
     width: 400px;
@@ -81,7 +131,9 @@ header h1{
     height: 75px;
 
 }
-
+a {
+    text-decoration:none;
+}
 /* ---------main---------- */
 
 /* -----------div01--------- */
@@ -89,36 +141,56 @@ header h1{
     width: 1080px;
     height: 240px;
     margin: 2em auto;
-    padding: 1em;
+    padding: 0;
     background-color: #fff; /* 背景色 */
     border: 3px solid #FE8824; /* 枠線 */
+    display: flex;
 }
 
-.osusume .osusume_sankaku .su{
+.osusume .number{
+    width: 100px;
+    height: 100px;
+    background-color: #FE8824;
     color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+.osusume .number p{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding: 15px 15px 10px 30px;;
 }
 .osusume .osusume_inner{
-    padding: 0 0 0 125px;
+    padding: 0 0 0 50px;
 }
+
 .ttl01{
     font-size: 32px;
+    margin: 0;
+    margin-top: 20px;
 }
 .text01{
-    font-size: 22px;
+    font-size: 21px;
     color: #707071;
+    line-height: 2;
 }
 /* -----------div02--------- */
 .curriculum_copy{
     color: #707070;
-    font-size: 21px;
+    font-size: 22px;
     text-align: center;
 }
 .curriculum_box{
+    max-width: 1080px;
     width: 19.4%;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
+
 .step{
     color: #FE8924;
     font-size: 28px;
@@ -141,14 +213,17 @@ header h1{
 }
 /* -----------div03--------- */
 .voice_block{
+    max-width: 1080px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 .voice_box{
     width: 340px;
     height: 420px;
+    padding: 0 40px;
 }
 .voice{
     font-size: 24px;
@@ -158,56 +233,102 @@ header h1{
 .voice_text{
     font-size: 22px;
     color: #707070;
+    line-height: 2;
 }
 /* -----------div04--------- */
 .sakuhin_block{
-    width: 1200px;
+    max-width: 1080px;
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 .sakuhin_box{
     width: 300px;
     height: 250px;
+    padding: 30px;
 }
 .sakuhin_ttl{
     font-size: 24px;
     color: #333333;
     text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .sakuhin_green{
     font-size: 28px;
     color: #39AD39;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
 }
 .yagirusi_green{
     text-align: center;
+    margin-bottom: 96px;
 }
 
 /* -----------div05--------- */
+.zaigaku_block{
+    width: 1080px;
+    display: flex;
+}
 .zaigaku_textbox{
     width: 670px;
-    height: 340px;
-
+    height: 320px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    padding: 8px;
+}
+.zaigaku_img{
+    margin-top: 30px;
+    margin-left: 60px;
 }
 .zaigaku_copy{
     font-size: 22px;
     color: #FE8824;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .zaigaku_ttl{
     font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .zaigaku_text{
     font-size: 20px;
     color: #707070;
 }
+.toppage{
+    position: relative;
+}
+.toppage .img{
+    position: absolute;
+}
 /* ----------footer--------- */
-.footer{
+
+footer{
+    width: 100%;
     background-color: #FC9E28;
 }
-.footer_text{
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
+
+.footer-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
+
+.footer-wrap .h1{
+    width: 170px;
+    height: 50px;
+}
+
+.footer-wrap p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
